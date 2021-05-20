@@ -12,7 +12,7 @@ class HelloController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello_world(){
-        return "hello, world3";
+        return "hello, world4";
 
     }
 
