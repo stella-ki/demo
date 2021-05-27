@@ -40,7 +40,7 @@ class HelloControllerTest {
                         .characterEncoding("utf-8")
                         )
                 .andExpect(status().isOk())
-                .andExpect(content().string("hello, world2"));
+                .andExpect(content().string("hello, world3"));
     }
 
 }
